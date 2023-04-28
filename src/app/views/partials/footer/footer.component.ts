@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
-  icone_footer:any ="../../../../assets/images/icone_footer.jpg";
+  icone_footer:any ="./assets/images/icone_footer.jpg";
 }

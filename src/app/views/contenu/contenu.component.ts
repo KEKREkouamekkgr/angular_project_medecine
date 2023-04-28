@@ -36,7 +36,7 @@ export class ContenuComponent {
     },
   ];
 
-  squellete:any = "/angular_project_medecine/src/assets/images/squellete.jpg";
+  squellete:any = "./assets/images/squellete.jpg";
 
   constructor(library: FaIconLibrary) {
     library.addIcons(faInfo, faCheck, faUser, faClipboardList, faFontAwesome);

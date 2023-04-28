@@ -8,13 +8,19 @@ import { faFontAwesome } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./accueil.component.css']
 })
 export class AccueilComponent {
-  scanner:any = "../../../assets/images/scanner.jpg";
-  echographie:any = "../../../assets/images/echographie.jpg";
-  IRM:any = "../../../assets/images/IRM.jpg";
-  consultation:any = "../../../assets/images/consultation.jpg";
-  radiographie:any = "../../../assets/images/radiographie.jpg";
-  mammographie:any = "../../../assets/images/Mammographie.jpg";
-
+  // scanner:any = "../../../assets/images/scanner.jpg";
+  // echographie:any = "../../../assets/images/echographie.jpg";
+  // IRM:any = "../../../assets/images/IRM.jpg";
+  // consultation:any = "../../../assets/images/consultation.jpg";
+  // radiographie:any = "../../../assets/images/radiographie.jpg";
+  // mammographie:any = "../../../assets/images/Mammographie.jpg";
+  scanner: any = "./assets/images/scanner.jpg";
+  echographie: any = "./assets/images/echographie.jpg";
+  IRM: any = "./assets/images/IRM.jpg";
+  consultation: any = "./assets/images/consultation.jpg";
+  radiographie: any = "./assets/images/radiographie.jpg";
+  mammographie: any = "./assets/images/Mammographie.jpg";
+  
   steps = [
     {
       label: 'Renseignements',
